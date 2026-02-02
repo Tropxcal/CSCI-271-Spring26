@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    //these are my vairbles
+    
+    int age=0;
+    string name1;
+    string name2;
+    
+    // this ask the user for input of first name, last name and, age
+    
+    cout << "what is your first name? " << endl;
+    cin >> name1;
+    cout << "what is your last name?" << endl;
+    cin >> name2;
+    cout << "how old are you ?" <<endl;
+    cin >> age;
+    
+    //this outputs first name, last name and, age
+    
+    cout << "name :\t" <<name1 << " "<<name2 << "\n age : \t "<< age << endl;
+    return 0;
+}
+
+//i had an issue where when i attempted to put a space in the orignal name1 vairible the code would user input for age.
